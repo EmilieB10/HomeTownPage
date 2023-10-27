@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #ffffff;
+  margin: 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+#Hero {
+  background-image: url("Images/Bryggen.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-txt {
+  background: #216869;
+  width: fit-content;
+  margin: 8px auto;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-shadow: 0px 0px 6px #080708;
+}
+
+h2,
+h4 {
+  text-shadow: 0px 0px 6px #ffffff;
+  color: #216869;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.activities-section {
+  background-color: #95b2b0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.activities-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.activities-info {
+  width: 200px;
+}
+
+.guide-card {
+  background: #216869;
+  width: 400px;
+  border-bottom: 12px solid #95b2b0;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#avatar-img {
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px 10px 5px 10px;
+  padding: 10px;
+}
+
+.guide-info {
+  padding: 20px;
+}
+
+.guide-card-section {
+  width: auto;
+  background: linear-gradient(#95b2b0, #216869);
+  padding: 70px;
+}
+
+.guide-card-txt {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.guide-card-p {
+  font-style: italic;
+  margin: 20px auto;
+}
+
+.footer {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+a {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
